@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .container-wrapper{
+            height: 70px;
+            background-color: #545454;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .container-wrapper .left-column{
+            background-color: aquamarine;
+            display: flex;            
+        }
+
+        .container-wrapper .left-column .name-wrapper{
+            font-size: 2em;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-left: 100px;
+            padding-right: 70px;
+        }
+
+        .container-wrapper .left-column .links-wrapper{ 
+            display: flex;
+        }
+
+        .container-wrapper .left-column .links-wrapper .link{
+            height: 70px;
+            background-color: brown;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-left: 40px;
+            padding-right: 40px;
+        } 
+
+        .container-wrapper .left-column .links-wrapper .link:hover{ 
+            background-color: coral;
+            cursor: pointer;
+        }
+
+
+        
+    </style>
+</head>
+<body>
+    <div class="container-wrapper">
+        <div class="left-column">
+            <div class="name-wrapper">
+                Edwin Tinoco
+            </div>
+            <div class="links-wrapper">
+                <div class="link">
+                    <a href="#">Link 1</a>
+                </div>
+                <div class="link">
+                    <a href="#">Link 2</a>
+                </div>                
+            </div>
+        </div>
+
+        <div class="right-column">
+            <div class="link">
+                <a href="#">Link 3</a>
+            </div>
+        </div>        
+
+    </div>
+</body>
+</html>
